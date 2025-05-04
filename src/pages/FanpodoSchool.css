@@ -1,0 +1,8 @@
+.school-notice {margin-bottom: 30px;}
+.school-title {text-align: center; font-weight: bold; font-size: 20px; margin: 16px 0;;}
+.SwiperSlider {background: url(../assets/slide-bg.png)no-repeat center/cover;  height: 500px; position: relative; border-radius: 20px;}
+.SwiperSlider  .swiper {padding:30px 0; position: absolute; width: 100%; left: 0; top:50%; transform: translateY(-50%);}
+.school-card {background:#fff; border-radius: 16px; padding:24px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+.school-card .icon {font-size: 36px; margin-bottom: 12px;}
+.school-card .title {font-weight: 700;  color: #6a1b9a; font-size: 18px; margin-bottom: 8px; }
+.school-card .desc { font-size: 14px;color: #666; }

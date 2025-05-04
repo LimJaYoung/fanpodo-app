@@ -1,0 +1,19 @@
+.container {padding:0}
+.settings-container {max-width: 480px;  margin:0 auto;padding: 24px;
+ background-color: #fff;  box-sizing: border-box; border-radius: 12px;
+box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
+.settings-title {text-align: center; font-size: 24px; color: #8800cc; font-weight: 700;
+margin-bottom: 32px; display: flex; align-items: center;justify-content: center;gap:8px; }
+.settings-form label {display: block;margin-bottom: 8px; font-weight: 600; color:#444; padding-left: 10px;}
+.settings-form input {width: 100%; padding:12px; margin-bottom: 24px; border:2px solid #ccc;border-radius: 8px; font-size: 16px; box-sizing: border-box; transition:
+ border-color 0.3s ease; }
+ .settings-form input, .settings-form textarea { color:#000;}
+
+ /* paldceholder색상흐리게 */
+ .settings-form input::placeholder, .settings-form textarea::placeholder{color:#aaa; opacity: 1;}
+.settings-form input:focus { border-color: #8800cc; outline:none;}
+.settings-form button {width: 100%; padding:14px; background-color: #6a1b9a; color:#fff;
+border:none; font-weight: bold; font-size: 16px; cursor:pointer; transition:
+ background-color 0.3s ease; border-radius: 8px;}
+.settings-form button:hover {background-color: #4e0d7a;}
+

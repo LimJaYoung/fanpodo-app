@@ -1,0 +1,38 @@
+.slider-wrapper {
+    width: 100%;
+    max-width: 768px;
+    margin: 24px auto;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+   /* 높이도 맞추고 싶다면 */
+    object-fit: cover; /* 이미지가 꽉 차게 */
+    display: block;
+  }
+  /* 페이지네이션 (점) */
+  .swiper-pagination-bullet {
+    background-color: #ccc;
+    opacity: 1;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #6a1b9a;
+  }
+  
+  /* 네비게이션 (화살표) */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #6a1b9a;
+    font-weight: bold;
+    top: 50%;
+    
+  }
+  
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 28px;
+  }

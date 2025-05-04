@@ -1,0 +1,5 @@
+.myposts-container {max-width: 480px;  margin:24px auto;padding: 24px; background-color: #fff;  box-sizing: border-box; border-radius: 12px;}
+.myposts-title {font-size: 22px; margin-bottom: 20px; color:#5e0080;}
+.mypost-card {border: 1px solid #ddd; border-radius: 10px; margin-bottom: 20px; padding: 20px; text-align: center;}
+.mypost-card:last-child {margin-bottom: 0;}
+.post-title {font-size: 18px; color:#000; margin-bottom: 15px;}

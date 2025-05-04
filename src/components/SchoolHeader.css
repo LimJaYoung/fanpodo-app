@@ -1,0 +1,5 @@
+.school-header-wrapper {display: flex; align-items: center; justify-content: space-between; padding:0 20px; font-size: 18px; background-color: #fff; position: sticky; top:0; z-index: 100;}
+.back-btn, .menu-btn {font-size: 18px; background: none; border:none; cursor:pointer; color:#333;}
+.back-button, icon-button { background: none; border:none; font-size: 20px; cursor: pointer;}
+.school-title {font-size: 18px; font-weight: bold; color:#333}  
+ 

@@ -1,0 +1,31 @@
+.home-container {padding:15px;  }
+.home-title {font-size: 24px; font-weight: bold; color:#6a1b9a; margin-bottom: 16px; text-align: center;}
+.home-text {font-size: 18px; color:#333; text-align: center; margin-bottom: 32px;}
+.home-section {background: #fff; padding:16px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);}
+
+
+.home-banner {  font-size: 18px; background: linear-gradient(to right, #a64bf4, #e75fc3); padding: 10px 4px; border-radius: 30px; }
+.home-banner .home-banner-text {color:#fff;display: flex; align-items: center;justify-content: center; animation: marquee 15s linear infinite; white-space: nowrap;  padding-left:100% ; }
+@keyframes marquee {
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(-100%);}
+}
+.home-banner .home-banner-text span {font-weight: bold; margin-right: 10px;}
+.home-artist {width: 100%; display: flex; justify-content: space-between;}
+.home-artist li {width: 30%; height: 160px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);border-radius: 18px; padding: 20px 0; transition: all 0.3s;}
+.home-artist li:hover { box-shadow: 0 0px 2px rgba(0,0,0,0.2);}
+.home-artist li a {display: block; width: 100%; height: 100%;}
+.home-artist li a p.img {width: 90px;height: 90px; border-radius: 50%; overflow: hidden; margin: auto;   box-shadow:inset 0 0 12px rgba(0, 0, 0, 0.7); }
+.home-artist li a p.img img {width: 100%;object-fit: cover; display: block; position: relative; z-index: 0; transition: all 0.3s; }
+.home-artist li:hover p.img img {transform: scale(1.1);}
+.home-artist li:nth-child(2) {width: 33%; height: 200px; padding-top: 25px;}
+.home-artist li:nth-child(2) a p.img {width: 100px;height: 100px; }
+.home-artist li:nth-child(2) a p.img img  {width:auto;height: 100%; }
+.home-artist li:nth-child(1),.home-artist li:nth-child(3) {margin-top: 20px;}
+.home-artist .home-artist-name {margin:15px 0; text-align: center; font-size: 16px; font-weight: 500;}
+.img-border {width: 110px; height: 110px; border-radius: 50%;
+    background: linear-gradient(135deg, #d36aff, #a05cf5); /* 보라 그라디언트 */
+    display: flex;align-items: center;justify-content: center; position: relative;
+    margin: 0 auto;}
+  .heart {position: absolute;top: -15px;left: 50%; transform: translateX(-50%);
+    font-size: 24px; }

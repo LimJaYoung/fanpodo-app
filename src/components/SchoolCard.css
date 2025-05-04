@@ -1,0 +1,6 @@
+
+.school-card {background: #fff; border-radius:16px; padding:24px 16px; 
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);text-align: center; transition: transform 0.3s ease; width: 200px;}    
+.school-card-icon {font-size: 36px; margin-bottom: 12px;}
+.school-card-title {font-size: 18px; font-weight: bold; color:#6a1b9a}
+.school-card-desc {font-size: 14px; color:#555; line-height: 1.5;}

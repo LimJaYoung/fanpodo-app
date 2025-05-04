@@ -1,0 +1,11 @@
+header {background: #6b21a8;color:#fff;padding:10px 24px;
+position:sticky; top:0; z-index:1000;}
+.header-top { display: flex; justify-content: space-between; align-items: center; height: 30px; line-height: 30px; margin-bottom: 10px;}
+.header-top .logo {font-size: 18px;  }
+.header-top .icon-list {display: flex; gap:16px; margin:0; padding:0;}
+.header-top .icon-list a {font-size: 16px;}
+header nav{width: 80%; margin:0 auto; display: flex;justify-content: space-between;flex-wrap: wrap; }
+header nav a {text-decoration: none; color:#fff;text-align: center;  width: 23%; position: relative; padding-bottom: 10px;}
+header nav a:after {content: ''; position: absolute; left: 50%;  transform:translateX(-50%); bottom: 0;width: 0%; height: 2px; background: linear-gradient(135deg, #f48fb1, #f06292); border-radius: 50px;transition: all 0.3s;}
+header nav a:hover {color: #f48fb1 }
+header nav a:hover:after {width: 75%;}
